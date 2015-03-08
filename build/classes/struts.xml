@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+    
+
+    
+<struts>
+     <package name="NFC_Library" extends="struts-default,json-default" namespace="/NFC_Library"><!-- 注意extends一定要json-default -->
+      
+       <!-- 刷卡时调用-->
+       <action name="accessID" class="com.K.NFC_Library.action.accessID">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+       <!--Web访问借书时候调用的  -->
+       <action name="WebVisitTemporary_values" class="com.K.NFC_Library.action.WebVisitTemporary_values">
+       <result name="accessBook.jsp">/accessBook.jsp</result>
+      </action>
+      
+        <!--Web访问还书时候调用的  -->
+       <action name="WebVisitTemporary_values_return" class="com.K.NFC_Library.action.WebVisitTemporary_values_return">
+       <result name="repayBook.jsp">/repayBook.jsp</result>
+      </action>
+      
+        <!--Web访问还书时候调用的  -->
+       <action name="Clean_WebVisitTemporary_values_return" class="com.K.NFC_Library.action.WebVisitTemporary_values_return" method="Clean_WebVisitTemporary_values_return">
+       <result name="WebVisitTemporary_values_return" type="redirect">WebVisitTemporary_values_return</result>
+      </action>
+      
+      <!-- Web 刷卡添加用户 -->
+       <action name="NFC_InsertUser" class="com.K.NFC_Library.action.NFC_InsertUser">
+       <result name="Loding_NFC.jsp" type="redirect">/Loding_NFC.jsp</result>
+      </action>
+      
+       <!-- Web 刷卡添加书籍 -->
+       <action name="NFC_InsertBook" class="com.K.NFC_Library.action.NFC_InsertBook">
+       <result name="Loding_NFC.jsp" type="redirect">/Loding_NFC.jsp</result>
+      </action>
+      
+        <!-- Web 查询当前NFCID -->
+       <action name="NFC_Search_NFCID" class="com.K.NFC_Library.action.NFC_Search_NFCID">
+       <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+      <!-- android访问时候调用的-->
+       <action name="AndroidVisitUser_Book" class="com.K.NFC_Library.action.AndroidVisitUser_Book">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+       <!-- android用户登录时调用-->
+       <action name="AndroidUser_Login" class="com.K.NFC_Library.action.AndroidUser_Login">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+       <!-- android用户登录时调用-->
+       <action name="AndroidUser_updatePassword" class="com.K.NFC_Library.action.AndroidUser_updatePassword">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+      
+   </package>
+   
+</struts>
