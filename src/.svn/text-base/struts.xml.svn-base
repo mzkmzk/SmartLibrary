@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+    
+
+    
+<struts>
+     <package name="default" extends="json-default"><!-- 注意extends一定要json-default -->
+      <!-- 客户登陆action -->
+       <action name="LoginAction" class="com.botb.controller.LoginAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 企业登陆action -->
+       <action name="LoginShopAction" class="com.botb.controller.LoginShopAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      <!-- 注册action -->
+       <action name="RegisterAction" class="com.botb.controller.RegisterAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+   <!-- 检查手机号是否备用action -->
+    <action name="RegisterCheckPhoneAction" class="com.botb.controller.RegisterCheckPhoneAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      
+       <!-- 查找商店 -->
+    <action name="FindShopAction" class="com.botb.controller.FindShopAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      <!-- 排号 -->
+    <action name="AccessNumberAction" class="com.botb.controller.AccessNumberAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 查找订单 -->
+       <action name="FindIndentAction" class="com.botb.controller.FindIndentAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 查找科目 -->
+       <action name="FindKeMuAction" class="com.botb.controller.FindKeMuAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 增加科目 -->
+       <action name="KeMuAddAction" class="com.botb.controller.KeMuAddAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      <!-- 删除科目 -->
+       <action name="KeMuDeleteAction" class="com.botb.controller.KeMuDeleteAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 删除排号 -->
+    <action name="DeleteNumberAction" class="com.botb.controller.DeleteNumberAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      <!-- 查找等待人数 -->
+       <action name="FindShopMaxIndentAction" class="com.botb.controller.FindShopMaxIndentAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 查找当前号数等待 -->
+       <action name="TongZhiIndentAction" class="com.botb.controller.TongZhiIndentAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 查找我的订单商店 -->
+       <action name="FindShopMyIntentAction" class="com.botb.controller.FindShopMyIntentAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 查找我的订单详情 -->
+       <action name="IndentNumAction" class="com.botb.controller.IndentNumAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 商店定位 -->
+       <action name="DingWeiAction" class="com.botb.controller.DingWeiAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+      <!-- 商店定位 -->
+       <action name="DingWei_phoneAction" class="com.botb.controller.DingWei_phoneAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+       <!-- 商店修改信息 -->
+       <action name="UpdateSeverDaoAction" class="com.botb.controller.UpdateSeverDaoAction">
+        <result type="json"><!-- 注意 -->
+        <param name="excludeProperties"><!-- 传递除id属性外的属性 -->
+        id
+        </param>
+        </result>
+      </action>
+   </package>
+   
+</struts>

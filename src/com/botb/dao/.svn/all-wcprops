@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao
+END
+RegisterCheckPhoneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/RegisterCheckPhoneDao.java
+END
+FindIndentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/FindIndentDao.java
+END
+FindShopMaxIndentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/FindShopMaxIndentDao.java
+END
+RegisterDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/RegisterDao.java
+END
+TongZhiIndentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/TongZhiIndentDao.java
+END
+DingWeiDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/DingWeiDao.java
+END
+KeMuDelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/KeMuDelDao.java
+END
+updateSeverDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/updateSeverDao.java
+END
+FindMyIndentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/FindMyIndentDao.java
+END
+IndentNumDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/IndentNumDao.java
+END
+FindKeMuDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/FindKeMuDao.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/Group.java
+END
+LoginDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/LoginDao.java
+END
+AccessNumberDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/AccessNumberDao.java
+END
+FindShopDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/FindShopDao.java
+END
+KeMuAddDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Botb_Server/!svn/ver/4/Botb/src/com/botb/dao/KeMuAddDao.java
+END
