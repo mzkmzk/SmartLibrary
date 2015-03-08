@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/custom_ad_padding"
+    android:paddingBottom="@dimen/custom_ad_padding"
+    android:clickable="true"
+    android:onClick="onElvLayoutSpaceClick" >
+
+	<LinearLayout
+	    android:id="@+id/comm_elv_dialog_content_all"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/custom_ad_btn_margin_height" >
+	    <TextView
+	        android:id="@+id/comm_elv_dialog_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:minHeight="45dp"
+	        android:background="@drawable/dialog_top_frame_bkg"
+	        android:text="@string/app_name"
+	        android:textSize="18sp"
+	        android:padding="8dip"
+	        android:clickable="true"
+	        android:textColor="#999999"
+	        android:gravity="center" />
+	    <ExpandableListView
+	        android:id="@+id/comm_elv_dialog_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dip"
+            android:childDivider="@android:color/transparent"
+            android:background="@drawable/dialog_bottom_frame_bkg"
+            android:cacheColorHint="@android:color/transparent"
+			android:listSelector="@android:color/transparent"
+			android:groupIndicator="@null"
+			android:fadingEdge="none"
+			android:drawSelectorOnTop="false" />
+	</LinearLayout>
+	
+	<Button
+	    android:layout_marginTop="@dimen/custom_ad_btn_negative_height"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:minHeight="@dimen/custom_ad_btn_height"
+	    android:background="@drawable/frame_bkg"
+	    android:text="@android:string/cancel"
+        android:padding="8dip"
+        android:textSize="18sp"
+        android:textColor="#ff00ddff"
+	    android:onClick="onElvCancleBtnClick" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:orientation="horizontal" 
+	    android:background="@color/color_blue">
+	   
+	     <TextView 
+	        android:id="@+id/tv_top_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/app_name"
+	        android:layout_centerInParent="true"
+	        android:lines="1"
+	        android:textSize="19sp"
+	        android:textColor="@color/color_white"/>
+	</RelativeLayout>
+    	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+		
+		<LinearLayout  
+	        android:id="@+id/login_edittext"  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content" 
+	        android:layout_margin="20.0dip"
+	        android:orientation="vertical" >  
+	        <EditText  
+	            android:id="@+id/login_et_account"  
+	            android:layout_width="fill_parent"  
+	            android:layout_height="40dp"  
+	        	android:background="@drawable/login_input" 
+	        	android:drawableLeft="@drawable/login_icon_account"
+	            android:drawablePadding="25dip"
+	            android:hint="@string/et_Num"
+	            android:textColorHint="@color/color_hint"  
+	            android:textSize="14.0dip"
+	            android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:numeric="integer"
+                android:singleLine="true"  
+	            android:paddingLeft="10dp" />  
+	        <EditText  
+	            android:id="@+id/login_et_pwd"  
+	            android:layout_width="fill_parent"  
+	            android:layout_height="40dp"  
+	            android:background="@drawable/login_input"  
+	            android:drawableLeft="@drawable/login_icon_password"
+	            android:drawablePadding="25dip"
+	            android:hint="@string/et_Pwd" 
+	            android:textColorHint="@color/color_hint" 
+	            android:textSize="14.0dip" 
+	            android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+	            android:paddingLeft="10dp" />  
+	            
+	    	 <Button
+		        android:id="@+id/login_btn_login"
+		        android:layout_width="fill_parent"
+		        android:layout_height="48.0dip"
+		        android:layout_marginTop="30.0dip"
+		        android:layout_weight="1.0"
+		        android:background="@drawable/login_button_blue_background"
+		        android:layout_centerInParent="true"
+		        android:gravity="center"
+		        android:text="@string/denglu"
+		        android:textColor="#FFFFFF"
+		        android:textSize="16.0sp"/>
+	    	 
+	    </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

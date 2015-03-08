@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_promonkey">智能图书馆</string>
+	<string name="str_dialog_exit_msg">确定要退出“%1$s”吗?</string>
+	
+	<string name="str_haha">蝶舞天涯\n柳眉蝶眸舞翩然，笑靥缠绵桃花间。\n晨光轻抚吟呓语，倩影窈窕犹胜仙。</string>
+	
+	<!-- 导航 -->
+	<string name="str_navi_home">未还书籍</string>
+	<string name="str_navi_work_notes">借书记录</string>
+	<string name="str_navi_third_libs">个人资料</string>
+	<!-- 麦志坤 开始 -->
+	<string name="str_navi_home_navi_left">书名</string>
+	<string name="str_navi_home_navi_right">借书时间</string>
+	<!-- 麦志坤 结束 -->
+	<!-- 左侧滑栏 -->
+	<string name="str_left_menu_name">花佟林雨月</string>
+	
+    <string name="str_empty_btn">待\n添加</string>
+    
+    <string name="str_loading_wait">请稍候…</string>
+    
+    <string name="str_tk_wei">魏</string>
+    <string name="str_tk_shu">蜀</string>
+    <string name="str_tk_wu">吴</string>
+    
+    <!-- chapter slide -->
+    <string name="title_chapter_slide_menu">章节左右滑动\n点击空白事件</string>
+    <string name="str_toast_click_anzai">去首页“关于作者及源码下载”下载源码吧！</string>
+    
+    <!-- viewpager navigate -->
+    <string name="title_bottom_navigate_menu">底部导航栏\nFragment+ViewPager</string>
+    <string name="str_btm_navi_name_hp">未还书籍</string>
+    <string name="str_btm_navi_name_lv">历史记录</string>
+    <string name="str_btm_navi_name_vp">个人资料</string>
+    <string name="str_btm_navi_hp_info">    本示例，通过 ViewPager + RadioGroup，实现了底部导航栏功能。
+        \n    ViewPager中可以包含不同类型的 Fragment，如：\n  “首页”包含了一个文本；\n  “列表”包含了一个列表；\n  “ViewPager” 则又嵌入了一个可以手势滑动切换的“ViewPager”。</string>
+    
+    <!-- expand list select -->
+    <string name="title_expand_list_select">二级列表选择\nExpandableListView</string>
+    <string name="str_expand_list_select">选择人物</string>
+    <string name="str_trans_receiver_num"> (%1$d / %2$d) </string>
+    
+    <!-- double fragment list -->
+    <string name="title_double_frg_list">双列表选择\nFragment</string>
+    <string name="str_list_double_list_select_info">最多可选%1$s项【您已选%2$s项】</string>
+    
+    <!-- title bar animator -->
+    <string name="title_title_bar_animator">标题栏多级分类\nViewAnimator</string>
+    <string name="str_title_bar_animator_info">标题栏功能按钮，分类多级显示！\n实际应用中，您可以自定义每栏的按钮功能，达到分类、分级显示功能按钮的效果。</string>
+    <string name="str_title_bar_main_msg">点击右侧“切换”，动画显示二级标题</string>
+    <string name="str_title_bar_btn_to_sec_set">设置</string>
+    <string name="str_title_bar_btn_to_sec_class">分类</string>
+    <string name="str_title_bar_btn_to_sec_tk">三国</string>
+    <string name="str_title_bar_sec_msg">点击右侧“返回”，动画回到主标题</string>
+    <string name="str_title_bar_btn_to_main">返回</string>
+     <string name="str_title_bar_set_size">大小</string>
+    <string name="str_title_bar_set_color">颜色</string>
+    <string name="str_title_bar_set_style">样式</string>
+    <string name="str_title_bar_class_force">武力</string>
+    <string name="str_title_bar_class_wisdom">智慧</string>
+    <string name="str_title_bar_class_politics">政治</string>
+    
+    <!-- list item children click -->
+    <string name="title_listitem_child_click">列表项点击事件，消息传递</string>
+    <string name="str_licc_hint_def">点击提示信息\n可点击“列表项”，也可点击“按钮”和“文本”</string>
+    <string name="str_licc_item">点击了列表,\n第%1$d项，【%2$s， %3$s】</string>
+    <string name="str_licc_btn_country">点击了按钮，\n%1$s说：我来自%2$s，我骄傲！</string>
+    <string name="str_licc_tv_name">点击了文本，\n三国时期，%1$s国的%2$s。</string>
+    
+    <!-- pull list view -->
+    <string name="title_pull_listview_exp">列表底部自动更新\n下拉显示搜索</string>
+ 	<string name="str_pull_to_refresh_pull_label">继续下拉刷新</string>
+    <string name="str_pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="str_pull_to_refresh_refreshing_label">正在刷新……</string>
+    <string name="str_pull_to_refresh_time">最后更新于:%1$s</string>
+    <string name="str_footer_loading">正在加载更多……</string>
+    <string name="str_footer_load_last">已加载全部</string>
+	<string name="str_footer_load_more">查看更多</string>
+	<string name="str_search_word_box_hint">输入文字</string>
+	    
+	<!-- sliding menu  -->
+	<string name="str_title_slidingmenu">slidingmenu\n侧滑栏</string>
+	<string name="str_left_menu_intro">简介</string>
+	<string name="str_left_menu_my_demo">工作笔记整理</string>
+	<string name="str_left_menu_third_demo">第三方lib整理</string>
+	<string name="str_slidingmenu_dialog_title">slidingmenu说明</string>
+	<string name="str_slidingmenu_dialog_msg">整体应用使用了slidingmenu侧滑栏，添加在extras下slidingmenu目录。\n更多介绍，可查看主页博文。</string>
+	
+	<!-- zxing -->
+	<string name="str_zxing_scan">zxing\n条码扫描</string>
+	<string name="str_title_zxing">条码扫描</string>
+	<string name="str_zxing_torch_toggle">灯光</string>
+	<string name="str_zxing_scan_text">请将二维码放入框内扫描</string>
+	
+	<!-- list dialog -->
+	<string name="title_list_dialog">自定义列表选择对话框</string>
+	<string name="str_list_dialog_list_btn">年龄选择</string>
+	<string name="str_list_dialog_list_def_txt">自定义列表对话框，选择年龄</string>
+	<string name="str_list_dialog_exp_list_btn">地区选择</string>
+	<string name="str_list_dialog_exp_list_def_txt">自定义二级列表对话框，选择地区</string>
+	<string name="str_age_wrap"> %1$d岁</string>
+	<string name="str_dialog_select_title_age">年龄选择</string>
+	<string name="str_dialog_select_title_region">地区选择</string>
+	
+    <!-- menu about -->
+    <string name="str_ma_get_source">源码</string>
+    <string name="str_ma_get_source_ok_dialog_title">获取提醒</string>
+    <string name="str_ma_get_source_ok_dialog_msg">源码将复制到%1$s中。</string>
+    <string name="str_ma_get_source_dialog_title">当前积分0</string>
+    <string name="str_ma_get_source_dialog_msg">悉知：积分不为0即可，下载不扣除，后续更新仍可下载！</string>
+    <string name="str_ma_get_source_dialog_btn_go">支持一下</string>
+    <string name="str_ma_get_source_dialog_btn_cancel">放弃代码</string>
+    <string name="str_ma_get_source_dialog_btn_rego">再支持一下</string>
+    <string name="str_ma_get_source_dialog_title_ok">获取成功</string>
+    <string name="str_ma_get_source_dialog_msg_ok">源码已经复制到%1$s中，请注意查看！</string>
+    <string name="str_ma_mailto">邮件反馈</string>
+    <string name="str_ma_mail">2282292405@qq.com</string>
+    <string name="str_ma_access_hompage">博客主页</string>
+    <string name="str_ma_hompage">http://my.oschina.net/gluoyer/blog</string>
+    <string name="str_ma_other_app">作者其他应用</string>
+    <string name="str_ma_rmd">推荐</string>
+    
+    <!-- wps exit dialog -->
+    <string name="str_wps_exit">退出</string>
+    <string name="str_wps_more">更多</string>
+    <string name="str_wps_cancel">取消</string>
+    
+    <!-- pac login start -->
+    
+    <string name="denglu">登陆</string>
+    <string name="et_Num">账号</string>
+    <string name="et_Pwd">密码</string>
+    
+      <string name="toast_error_password_null">密码不能为空</string>
+    <string name="toast_error_username_null">用户名不能为空</string>
+    <string name="toast_error_comfirm_password">输入的两次密码不一致</string>
+    
+    <string name="dialog_yes">确定</string>
+	<string name="dialog_no">取消</string>
+	
+	<string name="update_success">修改成功</string>
+    <!-- pac login end -->
+</resources>

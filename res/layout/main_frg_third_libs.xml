@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:id="@+id/third_libs_slidingmenu"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/str_title_slidingmenu" />
+			    <Button
+			        android:id="@+id/third_libs_zxing"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/str_zxing_scan" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:visibility="gone"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="@null" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:visibility="gone"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="@null" />
+			</LinearLayout>
+		</LinearLayout>
+</ScrollView>

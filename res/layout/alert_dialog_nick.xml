@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_r"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:gravity="center_horizontal" >
+
+        <EditText  
+            android:id="@+id/dialog_edit"  
+            android:layout_width="230dp"  
+            android:layout_height="40dp"  
+        	android:background="@drawable/login_input" 
+            android:drawablePadding="25dip"
+            android:textColorHint="@color/color_hint"  
+            android:textSize="14.0dip"
+            android:inputType="number"  
+            android:paddingLeft="10dp" />  
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/color_gray"
+        android:src="@drawable/prefresh_list_cutline" />
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="10.0dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="90.0dip"
+                android:layout_height="40.0dip"
+                android:background="@color/color_blue"
+                android:text="@string/dialog_yes"
+                android:textSize="16sp"
+                android:layout_marginRight="20.0dip"
+                android:textColor="@color/color_white" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="90.0dip"
+                android:layout_height="40.0dip"
+                android:background="@color/color_red"
+                android:text="@string/dialog_no"
+                android:textSize="16sp"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

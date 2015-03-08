@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/bg_common_toast" >
+    
+    <!-- 自定义一个图片组件对象 -->
+    <ImageView 
+        android:id="@+id/toastIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"/>
+    
+    <!-- 自定义的文本组件对象 -->
+    <TextView 
+        android:id="@+id/toastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="right|center"
+        android:textColor="@color/color_black"
+        android:textSize="14sp"/>
+
+</LinearLayout>
